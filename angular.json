@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "pray-requets"
+  "defaultProject": "pray-requets",
+  "cli": {
+    "analytics": "1d0c3c11-b0e8-4da7-8044-44bdea26cf1d"
+  }
 }
