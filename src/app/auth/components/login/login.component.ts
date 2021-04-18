@@ -1,3 +1,4 @@
+import { EventListenerFocusTrapInertStrategy } from '@angular/cdk/a11y';
 import { Component, OnInit } from '@angular/core';
 import {
   FormControl,
@@ -12,13 +13,7 @@ import {
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
-  hide = true;
-  checked: boolean = false;
   constructor() {}
 
   ngOnInit(): void {}
-  emailFormControl = new FormControl('', [
-    Validators.required,
-    Validators.email,
-  ]);
 }
