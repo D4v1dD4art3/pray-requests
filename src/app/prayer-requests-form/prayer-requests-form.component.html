@@ -1,0 +1,43 @@
+<div className="container">
+  <div className="section">
+    <div className="row">
+      <div className="col s12 center">
+        <h4>Prayer Requests</h4>
+        <div className="card">
+          <div className="card-content">
+            <form>
+              <div className="row">
+                <div className="input-field col s12">
+                  <input
+                    name="fullName"
+                    onChange="{this.handleChange}"
+                    type="text"
+                    placeholder="Full Name"
+                  />
+                </div>
+              </div>
+              <div className="row">
+                <div className="input-field col s12">
+                  <input name="title" type="text" placeholder="Title" />
+                </div>
+              </div>
+              <div className="row">
+                <div className="input-field col s12">
+                  <textarea
+                    className="materialize-textarea"
+                    placeholder="description"
+                    name="description"
+                    id=""
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </div>
+              </div>
+              <button className="btn light-blue darken-4">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
